@@ -883,6 +883,7 @@ border-color:#25D366;
 
 .nav-list{
   position:absolute;
+  display: none;
   top:70px;
   right:-100%;
   flex-direction:column;
@@ -939,8 +940,9 @@ border-color:#25D366;
   text-align:center;
 }
 .footer-container{
-  display: flex;
-  flex-direction: column;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(3000px,1fr));
+  gap:40px;
 }
 .social-icons{
     justify-content:center;
