@@ -904,6 +904,9 @@ border-color:#25D366;
 .hero-content h1{
   font-size:42px;
 }
+.hero-content p{
+  font-size: 10px;
+}
 .animated-text{
   font-size:22px;
 }
@@ -943,9 +946,6 @@ border-color:#25D366;
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
   gap:40px;
-}
-.footer-availability{
-  display: none;
 }
 .social-icons{
     justify-content:center;
