@@ -938,6 +938,10 @@ border-color:#25D366;
 .footer{
   text-align:center;
 }
+.footer-container{
+  display: flex;
+  flex-direction: column;
+}
 .social-icons{
     justify-content:center;
   }
